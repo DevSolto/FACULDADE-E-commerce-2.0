@@ -16,10 +16,9 @@
     width: 400px;
 }
 
-.btns img{
+.icone{
     width: 25px;
 }
-
 #star-1{
     top: 100px;
     right: 20px;
@@ -74,4 +73,3 @@ h2{
     background-color: #f2f0f1;
     padding-top: 100px;
 }
-
