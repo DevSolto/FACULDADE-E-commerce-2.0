@@ -17,7 +17,7 @@
 }
 
 .btns img{
-    width: 20px;
+    width: 25px;
 }
 
 #star-1{
@@ -60,3 +60,18 @@ h2{
     letter-spacing: -3px;
 
 }
+
+.menu-item{
+    border-bottom: 2px solid #fff;
+    transition: all 0.3s;
+}
+
+.menu-item:hover{
+    border-bottom: 2px solid #000;
+}
+
+.banner{
+    background-color: #f2f0f1;
+    padding-top: 100px;
+}
+

@@ -14,12 +14,12 @@
 </head>
 
 <body>
-  <header class="shadow-sm ">
+  <header class="shadow-sm position-fixed top-0 bg-white  w-100 z-3 ">
     <div class="container d-flex justify-content-between align-items-center py-3">
       <img class="logo" src="/front end/assets/logo.png" alt="Logo">
       <nav class="nav d-flex align-items-center gap-3">
         <li class="dropdown">
-          <a class="text-black text-decoration-none dropdown-btn" type="button" data-bs-toggle="dropdown"
+          <a class="text-black text-decoration-none dropdown-btn menu-item" type="button" data-bs-toggle="dropdown"
             aria-expanded="false">
             Feminino
           </a>
@@ -43,7 +43,8 @@
           </ul>
         </li>
         <li class="dropdown">
-          <a class="text-black text-decoration-none " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="text-black text-decoration-none menu-item" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
             Masculino
           </a>
           <ul class="dropdown-menu">
@@ -62,8 +63,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="text-black text-decoration-none nav-link  " type="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
+          <a class="text-black p-0 text-decoration-none nav-link menu-item ">
             Novidades
           </a>
         </li>
@@ -82,23 +82,22 @@
     </div>
   </header>
   <main>
-    <section class="banner w-100 ">
+    <section class="banner w-100">
       <div class="container d-flex align-items-center justify-content-between ">
         <div>
           <div>
             <h1 class="title text-black text-uppercase ">Encontre roupas <br> que casam com <br> seu estilo!</h1>
             <p>
-              Navegue por nossa diversificada linha de roupas meticulosamente elaboradas, projetadas <br> para realçar sua
+              Navegue por nossa diversificada linha de roupas meticulosamente elaboradas, projetadas <br> para realçar
+              sua
               individualidade e atender ao seu senso de estilo.
             </p>
             <a class="btn bg-black text-white rounded-pill fs-6 px-5  btn-lg " href="#" role="button">Comprar agora</a>
           </div>
         </div>
-        
-        <div class="position-relative  ">
-          <img src="/front end/assets/casal.png" alt="">
-          <img id="star-1" class="position-absolute" src="/front end/assets/star.png" alt="">
-          <img id="star-2" class="position-absolute" src="/front end/assets/star.png" alt="">
+
+        <div class="position-relative  w-50">
+          <img class="z-0 w-100 " src="/front end/assets/casal.png" alt="">
         </div>
       </div>
       <div class="bg-black d-flex align-items-center justify-content-evenly w-100 py-5 ">
@@ -112,18 +111,67 @@
       </div>
     </section>
 
-    <section class="container d-flex flex-column gap-5 justify-content-center align-items-center ">
-      <h2 class="title text-black text-uppercase mt-5 ">
+    <section class="container d-flex flex-column gap-5 justify-content-center align-items-center my-5 ">
+      <h2 class="title text-black text-uppercase ">
         Novidades
       </h2>
-      <div class="d-grid">
-        <div class="d-flex flex-column ">
-          <img class="rounded-3 " src="/front end/assets/products/product1.png" alt="">
-          <p>
-            T-shirt with tape details
-          </p>
-          <div>
-            
+        <div class="products container row gx-5">
+          <div class="p-3  col-4">
+            <div class="d-flex flex-column shadow-sm  rounded-2 p-3  ">
+              <img class="rounded-3 " src="/front end/assets/products/product1.png" alt="">
+              <p class="h4">
+                T-shirt with tape details
+              </p>
+              <div class="d-flex align-items-end gap-3 justify-content-between w-100 ">
+                <div class="d-flex align-items-center">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <p class="text-black m-0 ">
+                    4/<span class="text-secondary ">5</span>
+                  </p>
+                </div>
+                <p class="m-0">
+                  R$ <span class="h3">230,99</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="p-3  col-4">
+            <div class="d-flex flex-column shadow-sm  rounded-2 p-3  ">
+              <img class="rounded-3 " src="/front end/assets/products/product1.png" alt="">
+              <p class="h4">
+                T-shirt with tape details
+              </p>
+              <div class="d-flex align-items-end gap-3 justify-content-between w-100 ">
+                <div class="d-flex align-items-center">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <p class="text-black m-0 ">
+                    4/<span class="text-secondary ">5</span>
+                  </p>
+                </div>
+                <p class="m-0">
+                  R$ <span class="h3">230,99</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="p-3  col-4">
+            <div class="d-flex flex-column shadow-sm  rounded-2 p-3  ">
+              <img class="rounded-3 " src="/front end/assets/products/product1.png" alt="">
+              <p class="h4">
+                T-shirt with tape details
+              </p>
+              <div class="d-flex align-items-end gap-3 justify-content-between w-100 ">
+                <div class="d-flex align-items-center">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <p class="text-black m-0 ">
+                    4/<span class="text-secondary ">5</span>
+                  </p>
+                </div>
+                <p class="m-0">
+                  R$ <span class="h3">230,99</span>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
