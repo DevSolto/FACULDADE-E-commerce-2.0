@@ -1,5 +1,15 @@
+body, html {
+    overflow-x: hidden !important;
+    }
+
 *{
   transition: 0.3s linear ;
+}
+main{
+    width: 100vw;
+}
+body{
+    width: 100vw;
 }
 
 .logo{
@@ -17,9 +27,11 @@
 
 .search{
     outline: none;
-    width: 400px;
+    max-width: 400px;
 }
-
+.form-search{
+    max-width: 600px;
+}
 .icone{
     width: 25px;
 }
@@ -89,3 +101,4 @@ h2{
 .casal{
   max-height: 500px;
 }
+

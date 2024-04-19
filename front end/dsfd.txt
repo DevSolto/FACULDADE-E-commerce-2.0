@@ -2,8 +2,5 @@
       
       
       
-      <div class="btns d-flex gap-3">
-        <img class="icone" src="/front end/assets/cart.png" alt="">
-        <img class="icone" src="/front end/assets/user.png" alt="">
-      </div>
+      
     </div>

@@ -13,9 +13,9 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
+<body class="d-flex flex-column ">
   <header class="shadow-sm position-fixed top-0 bg-white  w-100 z-3 ">
-    <nav class="container-lg  navbar navbar-expand-lg bg-white ">
+    <nav class="container  navbar navbar-expand-lg bg-white ">
       <div class="container-fluid">
         <a class=" navbar-brand" href="#">
           <img class=" logo" src="./assets/logo.png" alt="Logo">
@@ -77,19 +77,23 @@
               </a>
             </li>
           </ul>
-          <form class="bg-black text-white  d-flex align-items-center justify-content-start  rounded-pill" method="get"
+          <form class="form-search bg-black text-white d-flex align-items-center justify-content-start  rounded-pill" method="get"
             action="">
             <button type="submit" class="btn">
               <i class="fa fa-search text-white " aria-hidden="true"></i>
             </button>
             <input class="border-0 bg-transparent search text-white" type="text" placeholder="Pesquisar por produto...">
           </form>
+          <div class="btns d-flex gap-3">
+            <img class="icone" src="/front end/assets/cart.png" alt="">
+            <img class="icone" src="/front end/assets/user.png" alt="">
+          </div>
         </div>
       </div>
     </nav>
   </header>
-  <main class="mt-5 ">
-    <section class="pt-5 banner container-fluid p-0 ">
+  <main class="mt-5">
+    <section class="pt-5 banner container-fluid">
       <div
         class="container d-flex flex-column flex-lg-row  align-items-center  align-items-lg-end   justify-content-lg-between justify-content-end  ">
 
@@ -109,17 +113,16 @@
           <img class="z-0 casal" src="./assets/casal.png" alt="">
         </div>
       </div>
-      <div class="bg-black d-flex align-items-center justify-content-evenly w-100 py-5 ">
-        <div class="container d-flex align-items-center justify-content-xl-between justify-content-center  flex-wrap gap-5">
-          <img class="logo-parceira" src="./assets/logos/logo1.png" alt="">
-          <img class="logo-parceira" src="./assets/logos/logo2.png" alt="">
-          <img class="logo-parceira" src="./assets/logos/logo3.png" alt="">
-          <img class="logo-parceira" src="./assets/logos/logo4.png" alt="">
-          <img class="logo-parceira" src="./assets/logos/logo5.png" alt="">
-        </div>
+    </section>
+    <section class="bg-black d-flex align-items-center justify-content-evenly w-100 py-5 ">
+      <div class="container d-flex align-items-center justify-content-xl-between justify-content-center  flex-wrap gap-5">
+        <img class="logo-parceira" src="./assets/logos/logo1.png" alt="">
+        <img class="logo-parceira" src="./assets/logos/logo2.png" alt="">
+        <img class="logo-parceira" src="./assets/logos/logo3.png" alt="">
+        <img class="logo-parceira" src="./assets/logos/logo4.png" alt="">
+        <img class="logo-parceira" src="./assets/logos/logo5.png" alt="">
       </div>
     </section>
-
     <section class="container d-flex flex-column gap-5 justify-content-center align-items-center my-5 ">
       <h2 class="title text-black text-uppercase ">
         Novidades
