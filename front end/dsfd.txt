@@ -1,0 +1,9 @@
+<div class="container d-flex justify-content-between align-items-center py-3">
+      
+      
+      
+      <div class="btns d-flex gap-3">
+        <img class="icone" src="/front end/assets/cart.png" alt="">
+        <img class="icone" src="/front end/assets/user.png" alt="">
+      </div>
+    </div>
