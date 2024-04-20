@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shop.co</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body class="d-flex flex-column">
+    <header class="shadow-sm position-fixed top-0 bg-white w-100 z-3">
+      <nav class="container navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="./assets/logo.png" alt="Logo" />
+          </a>
+          <button
+            class="border-0 navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown me-2">
+                <a
+                  class="text-black text-decoration-none dropdown-btn menu-item"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Feminino
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Blazer</a></li>
+                  <li><a class="dropdown-item" href="#">Blusa</a></li>
+                  <li><a class="dropdown-item" href="#">Calça</a></li>
+                  <li><a class="dropdown-item" href="#">Calça jeans</a></li>
+                  <li><a class="dropdown-item" href="#">Camisa</a></li>
+                  <li><a class="dropdown-item" href="#">Camiseta</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Casaco e jaqueta</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Jeans</a></li>
+                  <li><a class="dropdown-item" href="#">Macacão</a></li>
+                  <li><a class="dropdown-item" href="#">Moletom</a></li>
+                  <li><a class="dropdown-item" href="#">Regata</a></li>
+                  <li><a class="dropdown-item" href="#">Saia</a></li>
+                  <li><a class="dropdown-item" href="#">Short e bermuda</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Suéter e cardigan</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Vestido</a></li>
+                  <li>
+                    <a class="dropdown-item fw-semibold" href="#">Ver todos</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown me-2">
+                <a
+                  class="text-black text-decoration-none menu-item"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Masculino
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Calça</a></li>
+                  <li><a class="dropdown-item" href="#">Calça jeans</a></li>
+                  <li><a class="dropdown-item" href="#">Camisa</a></li>
+                  <li><a class="dropdown-item" href="#">Camiseta</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Casaco e jaqueta</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Jeans</a></li>
+                  <li><a class="dropdown-item" href="#">Moletom</a></li>
+                  <li><a class="dropdown-item" href="#">Polo</a></li>
+                  <li><a class="dropdown-item" href="#">Regata</a></li>
+                  <li><a class="dropdown-item" href="#">Short e bermuda</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Suéter e cardigan</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item fw-semibold" href="#">Ver todos</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item me-2">
+                <a
+                  class="text-black p-0 text-decoration-none nav-link menu-item"
+                >
+                  Novidades
+                </a>
+              </li>
+            </ul>
+            <form
+              class="form-search bg-black text-white d-flex align-items-center justify-content-start rounded-pill"
+              method="get"
+              action=""
+            >
+              <button type="submit" class="btn">
+                <i class="fa fa-search text-white" aria-hidden="true"></i>
+              </button>
+              <input
+                class="border-0 bg-transparent search text-white"
+                type="text"
+                placeholder="Pesquisar por produto..."
+              />
+            </form>
+            <div class="btns d-flex gap-3">
+              <img class="icone" src="/front end/assets/cart.png" alt="" />
+              <img class="icone" src="/front end/assets/user.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="mt-5">
+      <section class="pt-5 banner container-fluid">
+        <div
+          class="container d-flex flex-column flex-lg-row align-items-center align-items-lg-end justify-content-lg-between justify-content-end"
+        >
+          <div
+            class="d-flex flex-column align-items-start justify-content-center h-100 mb-5"
+          >
+            <h1 class="title text-black text-uppercase">
+              Encontre roupas <br />
+              que casam com <br />
+              seu estilo!
+            </h1>
+            <p>
+              Navegue por nossa diversificada linha de roupas meticulosamente
+              elaboradas, projetadas <br />
+              para realçar sua individualidade e atender ao seu senso de estilo.
+            </p>
+            <a
+              class="btn bg-black text-white rounded-pill fs-6 px-5 btn-lg"
+              href="#"
+              role="button"
+              >Comprar agora</a
+            >
+          </div>
+
+          <div class="h-100">
+            <img class="z-0 casal" src="./assets/casal.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section
+        class="bg-black d-flex align-items-center justify-content-evenly w-100 py-5"
+      >
+        <div
+          class="container d-flex align-items-center justify-content-xl-between justify-content-center flex-wrap gap-5"
+        >
+          <img class="logo-parceira" src="./assets/logos/logo1.png" alt="" />
+          <img class="logo-parceira" src="./assets/logos/logo2.png" alt="" />
+          <img class="logo-parceira" src="./assets/logos/logo3.png" alt="" />
+          <img class="logo-parceira" src="./assets/logos/logo4.png" alt="" />
+          <img class="logo-parceira" src="./assets/logos/logo5.png" alt="" />
+        </div>
+      </section>
+      <section
+        class="container d-flex flex-column gap-5 justify-content-center align-items-center my-5"
+      >
+        <h2 class="title text-black text-uppercase">Novidades</h2>
+        <div class="products container row gx-5">
+          <div class="col-lg-3 col-md-6 col-12 p-0">
+            <div class="d-flex flex-column rounded-2 p-3">
+              <img
+                class="rounded-5 mb-4"
+                src="./assets/products/product1.png"
+                alt=""
+              />
+              <p class="fs-4 fw-semibold">T-shirt with tape details</p>
+              <div
+                class="d-flex flex-column gap-3 justify-content-between w-100"
+              >
+                <div class="d-flex gap-2 align-items-center">
+                  <div>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                  </div>
+                  <p class="text-black m-0">
+                    4/<span class="text-secondary">5</span>
+                  </p>
+                </div>
+                <p class="m-0">R$ <span class="h3">230,99</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 p-0">
+            <div class="d-flex flex-column rounded-2 p-3">
+              <img
+                class="rounded-5 mb-4"
+                src="./assets/products/product2.png"
+                alt=""
+              />
+              <p class="fs-4 fw-semibold">Skinny fit jeans</p>
+              <div
+                class="d-flex flex-column gap-3 justify-content-between w-100"
+              >
+                <div class="d-flex align-items-center">
+                  <div>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                  </div>
+                  <p class="text-black m-0">
+                    4/<span class="text-secondary">5</span>
+                  </p>
+                </div>
+                <div class="m-0 d-flex align-items-center gap-2">
+                  <p class="m-0">R$ <span class="h3">240,99</span></p>
+                  <p class="m-0 text-decoration-line-through fs-6">
+                    R$ <span class="">260,99</span>
+                  </p>
+                  <span
+                    class="py-2 badge rounded-pill text-bg-danger bg-opacity-25 text-danger"
+                    >-20%</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 p-0">
+            <div class="d-flex flex-column rounded-2 p-3">
+              <img
+                class="rounded-5 mb-4"
+                src="./assets/products/product3.png"
+                alt=""
+              />
+              <p class="fs-4 fw-semibold">Checkered shirt</p>
+              <div
+                class="d-flex flex-column gap-3 justify-content-between w-100"
+              >
+                <div class="d-flex align-items-center">
+                  <div>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                  </div>
+                  <p class="text-black m-0">
+                    4/<span class="text-secondary">5</span>
+                  </p>
+                </div>
+                <p class="m-0">R$ <span class="h3">230,99</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 p-0">
+            <div class="d-flex flex-column rounded-2 p-3">
+              <img
+                class="rounded-5 mb-4"
+                src="./assets/products/product4.png"
+                alt=""
+              />
+              <p class="fs-4 fw-semibold">Sleeve striped t-shirt</p>
+              <div
+                class="d-flex flex-column gap-3 justify-content-between w-100"
+              >
+                <div class="d-flex align-items-center">
+                  <div>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                  </div>
+                  <p class="text-black m-0">
+                    4/<span class="text-secondary">5</span>
+                  </p>
+                </div>
+                <div class="m-0 d-flex align-items-center gap-2">
+                  <p class="m-0">R$ <span class="h3">240,99</span></p>
+                  <p class="m-0 text-decoration-line-through fs-6">
+                    R$ <span class="">260,99</span>
+                  </p>
+                  <span
+                    class="py-2 badge rounded-pill text-bg-danger bg-opacity-25 text-danger"
+                    >-20%</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          type="button"
+          class="bg-black px-5 py-3 rounded-5 text-white border-0 mb-5"
+        >
+          Ver todos
+        </button>
+      </section>
+      <section
+        class="container d-flex flex-column gap-5 justify-content-center align-items-center my-5"
+      >
+        <h2 class="title text-black text-uppercase">Mais vendidos</h2>
+        <div class="products container row gx-5">
+          <div class="col-lg-3 col-md-6 col-12 p-0">
+            <div class="d-flex flex-column rounded-2 p-3">
+              <img
+                class="rounded-5 mb-4"
+                src="./assets/products/product5.png"
+                alt=""
+              />
+              <p class="fs-4 fw-semibold">Vertical striped shirt</p>
+              <div
+                class="d-flex flex-column gap-3 justify-content-between w-100"
+              >
+                <div class="d-flex gap-2 align-items-center">
+                  <div>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                  </div>
+                  <p class="text-black m-0">
+                    4/<span class="text-secondary">5</span>
+                  </p>
+                </div>
+                <p class="m-0">R$ <span class="h3">230,99</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 p-0">
+            <div class="d-flex flex-column rounded-2 p-3">
+              <img
+                class="rounded-5 mb-4"
+                src="./assets/products/product6.png"
+                alt=""
+              />
+              <p class="fs-4 fw-semibold">Courage graphic t-shirt</p>
+              <div
+                class="d-flex flex-column gap-3 justify-content-between w-100"
+              >
+                <div class="d-flex align-items-center">
+                  <div>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                  </div>
+                  <p class="text-black m-0">
+                    4/<span class="text-secondary">5</span>
+                  </p>
+                </div>
+                <div class="m-0 d-flex align-items-center gap-2">
+                  <p class="m-0">R$ <span class="h3">240,99</span></p>
+                  <p class="m-0 text-decoration-line-through fs-6">
+                    R$ <span class="">260,99</span>
+                  </p>
+                  <span
+                    class="py-2 badge rounded-pill text-bg-danger bg-opacity-25 text-danger"
+                    >-20%</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 p-0">
+            <div class="d-flex flex-column rounded-2 p-3">
+              <img
+                class="rounded-5 mb-4"
+                src="./assets/products/product7.png"
+                alt=""
+              />
+              <p class="fs-4 fw-semibold">Loose fit bermuda shorts</p>
+              <div
+                class="d-flex flex-column gap-3 justify-content-between w-100"
+              >
+                <div class="d-flex align-items-center">
+                  <div>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                  </div>
+                  <p class="text-black m-0">
+                    4/<span class="text-secondary">5</span>
+                  </p>
+                </div>
+                <p class="m-0">R$ <span class="h3">230,99</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 p-0">
+            <div class="d-flex flex-column rounded-2 p-3">
+              <img
+                class="rounded-5 mb-4"
+                src="./assets/products/product8.png"
+                alt=""
+              />
+              <p class="fs-4 fw-semibold">Fader skinny jeans</p>
+              <div
+                class="d-flex flex-column gap-3 justify-content-between w-100"
+              >
+                <div class="d-flex align-items-center">
+                  <div>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                  </div>
+                  <p class="text-black m-0">
+                    4/<span class="text-secondary">5</span>
+                  </p>
+                </div>
+                <div class="m-0 d-flex align-items-center gap-2">
+                  <p class="m-0">R$ <span class="h3">240,99</span></p>
+                  <p class="m-0 text-decoration-line-through fs-6">
+                    R$ <span class="">260,99</span>
+                  </p>
+                  <span
+                    class="py-2 badge rounded-pill text-bg-danger bg-opacity-25 text-danger"
+                    >-20%</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          type="button"
+          class="bg-black px-5 py-3 rounded-5 text-white border-0 mb-5"
+        >
+          Ver todos
+        </button>
+      </section>
+      <section
+        class="d-flex flex-column justify-content-center align-items-center container bg-black bg-opacity-10 rounded-5 p-md-5 p-3 "
+      >
+        <h2 class="title text-black text-uppercase">Descubra seu estilo</h2>
+        <div class="w-100 d-flex flex-column align-items-center justify-content-center ">
+          <div class="row w-100 ">
+            <div class="col-md-4 col-12 p-md-2">
+              <div id="casual"  class="h3 fw-bold  p-3 cartao rounded-5 ">Casual</div>
+            </div>
+            <div  class="col-md-8 col-12 p-md-2 ">
+              <div id="formal" class="h3 fw-bold  p-3 cartao rounded-5 ">Formal</div>
+            </div>
+          </div>
+          <div class="row w-100 ">
+            <div class="col-md-8 col-12 p-md-2 ">
+              <div id="festa"  class="h3 fw-bold  p-3 cartao rounded-5 ">Festa</div>
+            </div>
+            <div  class="col-md-4 col-12 p-md-2">
+              <div id="fit" class="h3 fw-bold  p-3 cartao rounded-5 ">Fit</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/a0b52dfeaf.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

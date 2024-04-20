@@ -1,0 +1,124 @@
+body, html {
+    overflow-x: hidden !important;
+    }
+
+*{
+  transition: 0.3s linear ;
+}
+main{
+    width: 100vw;
+}
+body{
+    width: 100vw;
+}
+
+.logo{
+    width: 130px;
+}
+
+.dropdown-item:active{
+    background-color: #fff;
+    color: #000;
+}
+.dropdown-btn:active{
+    background-color: #fff;
+    color: #000;
+}
+
+.search{
+    outline: none;
+    max-width: 500px;
+    width: 100%;
+}
+.form-search{
+    max-width: 400px;
+    width: 100%;
+}
+.icone{
+    width: 25px;
+}
+#star-1{
+    top: 100px;
+    right: 20px;
+    animation: star infinite 2.6s linear;
+}
+#star-2{
+    top: 190px;
+    left: 0px;
+    width: 60px;
+    animation: star infinite 3s linear;
+
+}
+
+
+@keyframes star{
+    0%{
+        transform: scale(0.8);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.8);
+    }
+}
+
+
+.title{
+    font-weight: 900;
+}
+
+h1{
+    font-size: 64px;
+    letter-spacing: -4px;
+}
+
+@media (max-width: 1200px) {
+    h1{
+        font-size: 50px;
+        letter-spacing: -4px;
+    } 
+}
+
+h2{
+    font-size: 45px;
+    letter-spacing: -3px;
+
+}
+
+/* .menu-item{
+    border-bottom: 2px solid #fff;
+    transition: all 0.3s;
+}
+
+.menu-item:hover{
+    border-bottom: 2px solid #000;
+} */
+
+.banner{
+    background-color: #f2f0f1;
+    padding-top: 100px;
+}
+
+.casal{
+  max-height: 500px;
+}
+
+#casual{
+    background-image: url(./assets/fundos/casual.png);
+}
+#formal{
+    background-image: url(./assets/fundos/formal.png);
+}
+#festa{
+    background-image: url(./assets/fundos/festa.png);
+}
+#fit{
+    background-image: url(./assets/fundos/fit.png);
+}
+
+.cartao{
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
