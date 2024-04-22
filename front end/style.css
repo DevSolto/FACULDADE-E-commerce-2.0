@@ -122,3 +122,17 @@ h2{
     background-size: cover;
     background-position: center;
 }
+
+input{
+    outline: none;
+}
+
+footer{
+    background-color: #F0F0F0;
+    margin-top: 50px;
+}
+
+.newslatter{
+    position: relative;
+    top: -70px;
+}
