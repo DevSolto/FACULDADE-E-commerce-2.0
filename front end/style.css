@@ -136,3 +136,15 @@ footer{
     position: relative;
     top: -70px;
 }
+
+.breadcrumb{
+    font-size: 12px;
+}
+
+.img{
+    width: 100px;
+    height: 120px;
+    border: none;
+    background-position: center;
+    background-size: cover;
+}
