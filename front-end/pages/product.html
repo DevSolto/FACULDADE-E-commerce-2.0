@@ -109,38 +109,82 @@
 
   <main class="mt-5 d-flex flex-column align-items-center ">
     <nav aria-label="breadcrumb" class="pt-5 container p-3 breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a class="text-decoration-none text-black" href="#">Home</a></li>
-          <li class="breadcrumb-item"><a class="text-decoration-none text-black" href="#">Shop</a></li>
-          <li class="breadcrumb-item"><a class="text-decoration-none text-black" href="#">Masculino</a></li>
-          <li class="breadcrumb-item active" aria-current="page">T-shirt</li>
-        </ol>
-      </nav>
-      <section class="container row">
-        <div class="d-flex gap-3 col-lg-6">
-          <div class="d-md-flex flex-column gap-3 ">
-            <button class="img rounded-3" style="background-image: url(../assets/products/produto-destaque/frente.png);"></button>
-            <button class="img rounded-3" style="background-image: url(../assets/products/produto-destaque/tras.png);"></button>
-            <button class="img rounded-3" style="background-image: url(../assets/products/produto-destaque/modelo.png);"></button>
-          </div>
-          <div class="w-100 h-auto " style="background-image: url(../assets/products/produto-destaque/frente.png);">.</div>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a class="text-decoration-none text-black" href="#">Home</a></li>
+        <li class="breadcrumb-item"><a class="text-decoration-none text-black" href="#">Shop</a></li>
+        <li class="breadcrumb-item"><a class="text-decoration-none text-black" href="#">Masculino</a></li>
+        <li class="breadcrumb-item active" aria-current="page">T-shirt</li>
+      </ol>
+    </nav>
+    <section class="container row">
+      <div class="d-flex gap-3 col-lg-6">
+        <div class="d-md-flex flex-column gap-3 ">
+          <button class="img rounded-3"
+            style="background-image: url(../assets/products/produto-destaque/frente.png);"></button>
+          <button class="img rounded-3"
+            style="background-image: url(../assets/products/produto-destaque/tras.png);"></button>
+          <button class="img rounded-3"
+            style="background-image: url(../assets/products/produto-destaque/modelo.png);"></button>
         </div>
-        <div class="col-lg-6">
-          <h2 class="title text-black text-uppercase">One Life Graphic T-shirt</h2>
-          <div class="d-flex align-items-center">
-            <div>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+        <div class="w-100 rounded-3 h-auto principal-image"
+          style="background-image: url(../assets/products/produto-destaque/frente.png);">.</div>
+      </div>
+      <div class="col-lg-6 d-flex flex-column gap-2">
+        <h2 class="h3 title text-black text-uppercase">One Life Graphic T-shirt</h2>
+        <div class="d-flex align-items-center">
+          <div>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+          </div>
+          <p class="text-black m-0">
+            4/<span class="text-secondary">5</span>
+          </p>
+        </div>
+        <div class="m-0 d-flex align-items-center gap-2">
+          <p class="m-0">R$ <span class="h3">240,99</span></p>
+          <p class="m-0 text-decoration-line-through fs-6 text-secondary ">
+            R$ <span class="">260,99</span>
+          </p>
+          <span class="py-2 badge rounded-pill text-bg-danger bg-opacity-25 text-danger">-20%</span>
+        </div>
+        <p class="text-secondary ">
+          This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers
+          superior comfort and style.
+        </p>
+        <div class="border-bottom border-top py-3 ">
+          <p class="m-0 text-secondary ">
+            Selecione as cores
+          </p>
+          <div class="d-flex gap-2 ">
+            <div class="">
+              <input class="form-check-input color" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="background-color: #4F4631;" checked>
             </div>
-            <p class="text-black m-0">
-              4/<span class="text-secondary">5</span>
-            </p>
+            <div class="form-check">
+              <input class="form-check-input color" type="radio" name="flexRadioDefault" id="flexRadioDefault2" style="background-color: #314F4A;" >
+            </div>
+            <div class="form-check">
+              <input class="form-check-input color" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="background-color: #31344F;">
+            </div>
           </div>
         </div>
-      </section>
+        <div class="btn-group " role="group" aria-label="Basic radio toggle button group">
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+          <label class="btn btn-outline-dark " for="btnradio1">Pequeno</label>
+        
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+          <label class="btn btn-outline-dark " for="btnradio2">Medio</label>
+        
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+          <label class="btn btn-outline-dark " for="btnradio3">Grande</label>
+
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+          <label class="btn btn-outline-dark " for="btnradio4">Extra grande</label>
+        </div>
+      </div>
+    </section>
   </main>
 
   </footer>
