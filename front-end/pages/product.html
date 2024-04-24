@@ -117,16 +117,19 @@
       </ol>
     </nav>
     <section class="container row">
-      <div class="d-flex gap-3 col-lg-6">
-        <div class="d-md-flex flex-column gap-3 ">
-          <button class="img rounded-3"
-            style="background-image: url(../assets/products/produto-destaque/frente.png);"></button>
-          <button class="img rounded-3"
-            style="background-image: url(../assets/products/produto-destaque/tras.png);"></button>
-          <button class="img rounded-3"
-            style="background-image: url(../assets/products/produto-destaque/modelo.png);"></button>
+      <div class="row col-lg-6  m-0 text-center ">
+        <div class="row col-lg-4 col-12 m-0 ">
+          <div class="p-2 col-lg-12 col-4 border-0 ">
+            <div class="img rounded-3" style="background-image: url(../assets/products/produto-destaque/frente.png);"></div>
+          </div>
+          <div class="p-2 col-lg-12 col-4 border-0 ">
+            <div class="img rounded-3" style="background-image: url(../assets/products/produto-destaque/tras.png);"></div>
+          </div>
+          <div class="p-2 col-lg-12 col-4 border-0 ">
+            <div class="img rounded-3" style="background-image: url(../assets/products/produto-destaque/modelo.png);"></div>
+          </div>
         </div>
-        <div class="w-100 rounded-3 h-auto principal-image"
+        <div class="col-lg-8 col-12 rounded-3 principal-image"
           style="background-image: url(../assets/products/produto-destaque/frente.png);">.</div>
       </div>
       <div class="col-lg-6 d-flex flex-column gap-2">
@@ -170,21 +173,503 @@
             </div>
           </div>
         </div>
-        <div class="btn-group " role="group" aria-label="Basic radio toggle button group">
+        <div class="btn-group flex-lg-row justify-content-lg-between justify-content-start  flex-column gap-3 " role="group" aria-label="Basic radio toggle button group">
           <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-          <label class="btn btn-outline-dark " for="btnradio1">Pequeno</label>
+          <label class="btn btn-outline-dark  rounded-3 " for="btnradio1">Pequeno</label>
         
           <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-          <label class="btn btn-outline-dark " for="btnradio2">Medio</label>
+          <label class="btn btn-outline-dark rounded-3" for="btnradio2">Medio</label>
         
           <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-          <label class="btn btn-outline-dark " for="btnradio3">Grande</label>
+          <label class="btn btn-outline-dark rounded-3" for="btnradio3">Grande</label>
 
           <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
-          <label class="btn btn-outline-dark " for="btnradio4">Extra grande</label>
+          <label class="btn btn-outline-dark rounded-3" for="btnradio4">Extra grande</label>
+        </div>
+        <div class="row ">
+          <div class="col-12 col-lg-4 p-3 ">
+            <div class="quantidade d-flex align-items-center justify-content-between py-2 px-3  rounded-5 ">
+              <button>
+                <i class="fa-solid fa-minus"></i>
+              </button>
+              <span id="quantidade-produtos">5</span>
+              <button>
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-lg-8 p-3 ">
+            <div class="d-flex align-items-center justify-content-between ">
+                <p class="m-0">Total</p>
+                <p class="m-0">R$ <span class="h4 fw-semibold ">240,99</span></p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+    <section class="container d-flex flex-column justify-content-center align-items-center ">
+      <ul class="nav nav-tabs w-100 d-flex justify-content-center text-black  mt-5 " id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="tab-item nav-link rounded-top-4 text-black active" id="product-details" data-bs-toggle="tab" data-bs-target="#product-details-pane" type="button" role="tab" aria-controls="product-details-pane" aria-selected="true">
+            Detalhes do produto
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="tab-item nav-link rounded-top-4 text-black" id="reviews" data-bs-toggle="tab" data-bs-target="#reviews-pane" type="button" role="tab" aria-controls="reviews-pane" aria-selected="false">
+            Reviews
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="tab-item nav-link rounded-top-4 text-black" id="faq" data-bs-toggle="tab" data-bs-target="#faq-pane" type="button" role="tab" aria-controls="faq-pane" aria-selected="false">
+            FAQ's
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content container " id="myTabContent">
+        <div class="tab-pane p-3  fade show active" id="product-details-pane" role="tabpanel" aria-labelledby="product-details" tabindex="0">
+          <p class="h4 ">One Life Graphic T-shirt</p>
+          <p>
+            A camiseta "One Life Graphic T-shirt" é mais do que uma peça de vestuário; é uma afirmação de estilo e um manifesto pessoal. Feita para aqueles que acreditam na unicidade de cada momento, esta peça é o acompanhamento perfeito para qualquer aventura do dia a dia.
+          </p>
+          <p class="fw-semibold ">
+            Características:
+          </p>
+          <p>
+            Material: 100% algodão premium, proporcionando conforto duradouro e respirabilidade.
+            Design: Destacada por seu gráfico audacioso 'ONE LIFE' em uma tipografia vintage, com detalhes de escrita cursiva abaixo, adicionando um toque pessoal e uma vibração artística.
+            Cor: Uma tonalidade sóbria de verde oliva, versátil e fácil de combinar com outras peças.
+            Tamanho e Caimento: Disponível em uma variedade de tamanhos, do P ao GG. Corte regular que oferece equilíbrio entre liberdade de movimento e contorno elegante.
+            Durabilidade: Impressão de alta qualidade que resiste a lavagens frequentes sem desbotar.
+          </p>
+            <p class="fw-semibold ">
+              Cuidados com o Produto:
+            </p>
+            <p>
+            Lavar à máquina com cores semelhantes em água fria.
+            Não alvejar.
+            Secar em temperatura baixa ou pendurar para uma secagem ao ar que preserve a impressão.
+            Passar a ferro em temperatura baixa, se necessário, exceto sobre a estampa.
+            </p>
+            <p class="fw-semibold ">
+              Ideal para:
+            </p>
+            <p>
+            Uso diário, com seu conforto e estilo que nunca saem de moda.
+            Presentear alguém especial que valoriza a exclusividade e o design pensativo.
+            Expressar uma filosofia de vida de aproveitar cada dia ao máximo.
+            </p>
+            <p class="fw-semibold ">
+              Faça da "One Life Graphic T-shirt" uma peça chave no seu guarda-roupa e celebre a singularidade da sua jornada.
+            </p>
+          </p>
+        </div>
+        <div class="tab-pane p-3  fade" id="reviews-pane" role="tabpanel" aria-labelledby="reviews" tabindex="0">
+          <section class="container d-flex flex-column gap-5 justify-content-center align-items-center ">
+            <header class="d-flex w-100 flex-column flex-sm-row  align-items-center justify-content-between ">
+              <p class="title text-black text-uppercase m-0">Reviews</p>
+              <div class="d-flex gap-2">
+                <button class="btn d-none d-sm-block  btn-light rounded-3 ">
+                  <i class="fa-solid fa-grip-lines "></i>
+                </button>
+                <button class="btn btn-dark rounded-3">
+                  Compartilhar minha experiencia
+                </button>
+              </div>
+            </header>
+            <div class="row">
+              <div class="p-sm-3   py-3 px-0 col-xl-4 col-sm-6 col-12   ">
+                <div class="card">
+                  <div class="card-body">
+                    <div>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                      <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <h5 class="card-title">Lucas Silva</h5>
+                      <i class="fa-solid fa-circle-check text-success "></i>
+                    </div>
+                    <p class="card-text">
+                      "Estou impressionado com a qualidade dessa camiseta! O tecido é realmente premium e mesmo depois de várias lavagens, o design continua impecável. Além disso, a entrega foi super rápida. Recomendo muito esse produto para quem busca estilo e qualidade."
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="p-3 py-3 px-0 col-xl-4 col-sm-6 col-12 ">
+                <div class="card">
+                  <div class="card-body">
+                    <div>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <h5 class="card-title">Mariana Costa</h5>
+                      <i class="fa-solid fa-circle-check text-success "></i>
+                    </div>
+                    <p class="card-text">
+                      "A experiência de compra foi excelente do início ao fim. A camiseta chegou antes do previsto e a qualidade do material me surpreendeu positivamente. É confortável, estilosa e combina facilmente com outras peças. Vou comprar mais e recomendar para os amigos!"
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="p-3 py-3 px-0 col-xl-4 col-sm-6 col-12 ">
+                <div class="card">
+                  <div class="card-body">
+                    <div>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                      <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                      <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <h5 class="card-title">Isabela Freitas </h5>
+                      <i class="fa-solid fa-circle-check text-success "></i>
+                    </div>
+                    <p class="card-text">
+                      "Fiquei um pouco desapontado com a diferença de cor em relação às fotos no site, mas isso não tira o brilho do produto. A qualidade do algodão é ótima e o design gráfico é único. Ainda assim, é uma boa compra e combina bem com jeans ou shorts."
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="p-3 py-3 px-0 col-xl-4 col-sm-6 col-12 ">
+                <div class="card">
+                  <div class="card-body">
+                    <div>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                      <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                      <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                      <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <h5 class="card-title">Henrique Cardoso</h5>
+                      <i class="fa-solid fa-circle-check text-success "></i>
+                    </div>
+                    <p class="card-text">
+                      "O tamanho da camiseta veio maior do que eu esperava. Aconselho verificar bem as medidas antes de fazer o pedido. Apesar disso, o atendimento ao cliente foi atencioso e facilitou a troca. A qualidade do material é boa, mas atenção ao tamanho é fundamental."
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="p-3 py-3 px-0 col-xl-4 col-sm-6 col-12 ">
+                <div class="card">
+                  <div class="card-body">
+                    <div>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                      <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                      <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                      <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <h5 class="card-title">Amanda Gomes</h5>
+                      <i class="fa-solid fa-circle-check text-success "></i>
+                    </div>
+                    <p class="card-text">
+                      "Fiquei um tanto insatisfeita porque a estampa começou a perder a cor após a primeira lavagem. Eu esperava uma maior durabilidade, considerando a descrição do produto. Espero que a loja leve esse feedback em conta para melhorar a qualidade das estampas no futuro."
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="p-3 py-3 px-0 col-xl-4 col-sm-6 col-12 ">
+                <div class="card">
+                  <div class="card-body">
+                    <div>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star " aria-hidden="true"></i>
+                      <i class="fa fa-star " aria-hidden="true"></i>
+                      <i class="fa fa-star " aria-hidden="true"></i>
+                      <i class="fa fa-star " aria-hidden="true"></i>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <h5 class="card-title">Gabriel Souza</h5>
+                      <i class="fa-solid fa-circle-check text-success "></i>
+                    </div>
+                    <p class="card-text">
+                      "A 'One Life Graphic T-shirt' se tornou minha peça favorita do guarda-roupa. A estampa tem um toque vintage que eu adoro e o material é muito confortável para o uso diário. O tamanho ficou perfeito, seguindo exatamente a tabela de medidas."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="tab-pane p-3 z-0  fade" id="faq-pane" role="tabpanel" aria-labelledby="faq" tabindex="0">
+          <div class="accordion mx-auto" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Como escolho o tamanho certo para mim?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Oferecemos uma tabela de tamanhos detalhada com as medidas exatas de cada tamanho disponível. Recomendamos que você compare suas próprias medidas com as da tabela para encontrar o ajuste perfeito. Em caso de dúvida entre dois tamanhos, sugerimos escolher o maior para maior conforto.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  A camiseta encolhe após a lavagem?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Nossas camisetas são feitas com algodão de alta qualidade que é pré-encolhido para evitar redução significativa de tamanho. Para melhores resultados, siga as instruções de cuidados na etiqueta.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Posso trocar ou devolver a camiseta se não gostar?
+
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Sim, você pode devolver ou trocar a camiseta dentro de 30 dias após a compra, desde que a peça não tenha sido usada e ainda possua as etiquetas originais. Consulte nossa política de devoluções para mais detalhes.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  A estampa da camiseta desbota?
+
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  A estampa é feita com técnicas modernas de impressão para garantir durabilidade. No entanto, para preservar a vivacidade, recomendamos lavar a camiseta do avesso em água fria e secar à sombra.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  Este produto é eco-friendly?
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Estamos comprometidos com a sustentabilidade e usamos práticas de produção que minimizam o impacto ambiental. A "One Life Graphic T-shirt" é feita com algodão orgânico e tintas à base de água.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  Vocês oferecem frete grátis?
+                </button>
+              </h2>
+              <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Oferecemos frete grátis para compras acima de um certo valor e para destinos específicos. Consulte as informações de envio para verificar se sua compra é elegível.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                  Como posso rastrear meu pedido?
+                </button>
+              </h2>
+              <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Após a compra, você receberá um número de rastreamento por e-mail que permitirá acompanhar a entrega do seu pedido em tempo real no site da transportadora.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container d-flex flex-column gap-5 justify-content-center align-items-center my-5">
+      <h2 class="title text-black text-uppercase">Mais vendidos</h2>
+      <div class="products container row gx-5">
+        <div class="col-lg-3 col-md-6 col-12 p-0">
+          <div class="d-flex flex-column rounded-2 p-3">
+            <img class="rounded-5 mb-4" src="../assets/products/product5.png" alt="" />
+            <p class="fs-4 fw-semibold">Vertical striped shirt</p>
+            <div class="d-flex flex-column gap-3 justify-content-between w-100">
+              <div class="d-flex gap-2 align-items-center">
+                <div>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                </div>
+                <p class="text-black m-0">
+                  4/<span class="text-secondary">5</span>
+                </p>
+              </div>
+              <p class="m-0">R$ <span class="h3">230,99</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 p-0">
+          <div class="d-flex flex-column rounded-2 p-3">
+            <img class="rounded-5 mb-4" src="../assets/products/product6.png" alt="" />
+            <p class="fs-4 fw-semibold">Courage graphic t-shirt</p>
+            <div class="d-flex flex-column gap-3 justify-content-between w-100">
+              <div class="d-flex align-items-center">
+                <div>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                </div>
+                <p class="text-black m-0">
+                  4/<span class="text-secondary">5</span>
+                </p>
+              </div>
+              <div class="m-0 d-flex align-items-center gap-2">
+                <p class="m-0">R$ <span class="h3">240,99</span></p>
+                <p class="m-0 text-decoration-line-through fs-6">
+                  R$ <span class="">260,99</span>
+                </p>
+                <span class="py-2 badge rounded-pill text-bg-danger bg-opacity-25 text-danger">-20%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 p-0">
+          <div class="d-flex flex-column rounded-2 p-3">
+            <img class="rounded-5 mb-4" src="../assets/products/product7.png" alt="" />
+            <p class="fs-4 fw-semibold">Loose fit bermuda shorts</p>
+            <div class="d-flex flex-column gap-3 justify-content-between w-100">
+              <div class="d-flex align-items-center">
+                <div>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                </div>
+                <p class="text-black m-0">
+                  4/<span class="text-secondary">5</span>
+                </p>
+              </div>
+              <p class="m-0">R$ <span class="h3">230,99</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 p-0">
+          <div class="d-flex flex-column rounded-2 p-3">
+            <img class="rounded-5 mb-4" src="../assets/products/product8.png" alt="" />
+            <p class="fs-4 fw-semibold">Fader skinny jeans</p>
+            <div class="d-flex flex-column gap-3 justify-content-between w-100">
+              <div class="d-flex align-items-center">
+                <div>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star opacity-25" aria-hidden="true"></i>
+                </div>
+                <p class="text-black m-0">
+                  4/<span class="text-secondary">5</span>
+                </p>
+              </div>
+              <div class="m-0 d-flex align-items-center gap-2">
+                <p class="m-0">R$ <span class="h3">240,99</span></p>
+                <p class="m-0 text-decoration-line-through fs-6">
+                  R$ <span class="">260,99</span>
+                </p>
+                <span class="py-2 badge rounded-pill text-bg-danger bg-opacity-25 text-danger">-20%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="bg-black px-5 py-3 rounded-5 text-white border-0 mb-5">
+        Ver todos
+      </button>
+    </section>
+    
+    <footer class="w-100 ">
+      <div class="container">
+        <div class="row bg-black align-items-center p-4  rounded-5 newslatter shadow">
+          <h2 class="title text-white  text-uppercase col-md-8 col-12  pe-5">Fique por dentro das nossas novas ofertas
+          </h2>
+          <form class="col-md-4 col-12 ">
+            <div class="mb-3 d-flex align-items-center gap-2 bg-white  py-2 px-3  rounded-5 ">
+              <i class="fa-regular fa-envelope text-secondary "></i>
+              <input type="email" class="border-0 w-100 " id="email" aria-describedby="emailHelp"
+                placeholder="Digite seu email">
+            </div>
+            <button
+              class="d-flex align-items-center justify-content-center  gap-2 bg-white  py-2 px-3  rounded-5 w-100">Submit</button>
+          </form>
+        </div>
+        <div class="row ">
+          <div class="col-lg-4 mb-4 ">
+            <a class="navbar-brand" href="#">
+              <img class="logo" src="../assets/logo.png" alt="Logo" />
+            </a>
+            <p>
+              We have clothes that suits your style and which you’re proud to wear. From women to men.
+            </p>
+            <div>
+              <i class="fa-brands fa-square-facebook"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+              <i class="fa-brands fa-square-twitter"></i>
+            </div>
+          </div>
+          <div class="d-flex flex-column col-lg-2 col-6 mb-4 ">
+            <p class="text-uppercase mb-0">Company</p>
+            <a href="" class="text-secondary  text-decoration-none">About</a>
+            <a href="" class="text-secondary  text-decoration-none">Works</a>
+            <a href="" class="text-secondary  text-decoration-none">Features</a>
+            <a href="" class="text-secondary  text-decoration-none">Career</a>
+          </div>
+          <div class="d-flex flex-column col-lg-2 col-6 mb-4 ">
+            <p class="text-uppercase mb-0">Help</p>
+            <a href="" class="text-secondary  text-decoration-none">Customer Support</a>
+            <a href="" class="text-secondary  text-decoration-none">Delivery Details</a>
+            <a href="" class="text-secondary  text-decoration-none">Terms & Conditions</a>
+            <a href="" class="text-secondary  text-decoration-none">Privacy Policy</a>
+          </div>
+          <div class="d-flex flex-column col-lg-2 col-6 mb-4 ">
+            <p class="text-uppercase mb-0">FAQ</p>
+            <a href="" class="text-secondary  text-decoration-none">Account</a>
+            <a href="" class="text-secondary  text-decoration-none">Manage Deliveries</a>
+            <a href="" class="text-secondary  text-decoration-none">Orders</a>
+            <a href="" class="text-secondary  text-decoration-none">Payments</a>
+          </div>
+          <div class="d-flex flex-column col-lg-2 col-6 mb-4 ">
+            <p class="text-uppercase mb-0">Resources</p>
+            <a href="" class="text-secondary  text-decoration-none">Free eBooks</a>
+            <a href="" class="text-secondary  text-decoration-none">Development Tutorial</a>
+            <a href="" class="text-secondary  text-decoration-none">How to - Blog</a>
+            <a href="" class="text-secondary  text-decoration-none">Youtube Playlist</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5 col-12 d-flex justify-content-md-start justify-content-center">
+            <p >© 2000-2021, All rights reserved</p>
+          </div>
+          <div class="col-md-7 col-12 d-flex gap-0 justify-content-md-end justify-content-center  ">
+            <img src="../assets/formas de pagamento/apple Pay.png" alt="">
+            <img src="../assets/formas de pagamento/Visa.png" alt="">
+            <img src="../assets/formas de pagamento/PayPal.png" alt="">
+            <img src="../assets/formas de pagamento/Master.png" alt="">
+            <img src="../assets/formas de pagamento/Google Pay.png" alt="">
+          </div>
+        </div>
+      </div>
+    </footer>
   </main>
 
   </footer>
