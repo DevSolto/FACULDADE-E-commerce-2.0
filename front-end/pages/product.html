@@ -120,16 +120,16 @@
       <div class="row col-lg-6  m-0 text-center ">
         <div class="row col-lg-4 col-12 m-0 ">
           <div class="p-2 col-lg-12 col-4 border-0 ">
-            <div class="img rounded-3" style="background-image: url(../assets/products/produto-destaque/frente.png);"></div>
+            <button onclick="switchImage('../assets/products/produto-destaque/frente.png')" class="img rounded-3 w-100 " style="background-image: url(../assets/products/produto-destaque/frente.png);"></button>
           </div>
           <div class="p-2 col-lg-12 col-4 border-0 ">
-            <div class="img rounded-3" style="background-image: url(../assets/products/produto-destaque/tras.png);"></div>
+            <button onclick="switchImage('../assets/products/produto-destaque/tras.png')" class="img rounded-3 w-100" style="background-image: url(../assets/products/produto-destaque/tras.png);"></button>
           </div>
           <div class="p-2 col-lg-12 col-4 border-0 ">
-            <div class="img rounded-3" style="background-image: url(../assets/products/produto-destaque/modelo.png);"></div>
+            <button onclick="switchImage('../assets/products/produto-destaque/modelo.png')" class="img rounded-3 w-100" style="background-image: url(../assets/products/produto-destaque/modelo.png);"></button>
           </div>
         </div>
-        <div class="col-lg-8 col-12 rounded-3 principal-image"
+        <div id="principal-image" class="col-lg-8 col-12 rounded-3 principal-image"
           style="background-image: url(../assets/products/produto-destaque/frente.png);">.</div>
       </div>
       <div class="col-lg-6 d-flex flex-column gap-2">
@@ -147,7 +147,7 @@
           </p>
         </div>
         <div class="m-0 d-flex align-items-center gap-2">
-          <p class="m-0">R$ <span class="h3">240,99</span></p>
+          <p class="m-0">R$ <span class="h3" id="price">239</span></p>
           <p class="m-0 text-decoration-line-through fs-6 text-secondary ">
             R$ <span class="">260,99</span>
           </p>
@@ -189,11 +189,11 @@
         <div class="row ">
           <div class="col-12 col-lg-4 p-3 ">
             <div class="quantidade d-flex align-items-center justify-content-between py-2 px-3  rounded-5 ">
-              <button>
+              <button onclick="calcQuantidade('-')">
                 <i class="fa-solid fa-minus"></i>
               </button>
-              <span id="quantidade-produtos">5</span>
-              <button>
+              <span id="quantidade-produtos">1</span>
+              <button onclick="calcQuantidade('+')">
                 <i class="fa-solid fa-plus"></i>
               </button>
             </div>
@@ -201,9 +201,10 @@
           <div class="col-12 col-lg-8 p-3 ">
             <div class="d-flex align-items-center justify-content-between ">
                 <p class="m-0">Total</p>
-                <p class="m-0">R$ <span class="h4 fw-semibold ">240,99</span></p>
+                <p class="m-0">R$ <span class="h4 fw-semibold " id="valor-total">239</span></p>
             </div>
           </div>
+          <button class="btn btn-dark ">Comprar</button>
         </div>
       </div>
     </section>
@@ -268,8 +269,8 @@
             <header class="d-flex w-100 flex-column flex-sm-row  align-items-center justify-content-between ">
               <p class="title text-black text-uppercase m-0">Reviews</p>
               <div class="d-flex gap-2">
-                <button class="btn d-none d-sm-block  btn-light rounded-3 ">
-                  <i class="fa-solid fa-grip-lines "></i>
+                <button onclick="toggleLayout()" class="btn d-none d-sm-block  btn-light rounded-3 ">
+                  <i id="toggle-icon" class="fa-solid fa-grip-lines "></i>
                 </button>
                 <button class="btn btn-dark rounded-3">
                   Compartilhar minha experiencia
@@ -277,7 +278,7 @@
               </div>
             </header>
             <div class="row">
-              <div class="p-sm-3   py-3 px-0 col-xl-4 col-sm-6 col-12   ">
+              <div class="review p-sm-3  py-3 px-0 col-xl-4 col-sm-6 col-12   ">
                 <div class="card">
                   <div class="card-body">
                     <div>
@@ -297,7 +298,7 @@
                   </div>
                 </div>
               </div>
-              <div class="p-3 py-3 px-0 col-xl-4 col-sm-6 col-12 ">
+              <div class="review p-sm-3   py-3 px-0 col-xl-4 col-sm-6 col-12   ">
                 <div class="card">
                   <div class="card-body">
                     <div>
@@ -318,7 +319,7 @@
                   </div>
                 </div>
               </div>
-              <div class="p-3 py-3 px-0 col-xl-4 col-sm-6 col-12 ">
+              <div class="review p-sm-3   py-3 px-0 col-xl-4 col-sm-6 col-12   ">
                 <div class="card">
                   <div class="card-body">
                     <div>
@@ -338,7 +339,7 @@
                   </div>
                 </div>
               </div>
-              <div class="p-3 py-3 px-0 col-xl-4 col-sm-6 col-12 ">
+              <div class="review p-sm-3   py-3 px-0 col-xl-4 col-sm-6 col-12   ">
                 <div class="card">
                   <div class="card-body">
                     <div>
@@ -358,7 +359,7 @@
                   </div>
                 </div>
               </div>
-              <div class="p-3 py-3 px-0 col-xl-4 col-sm-6 col-12 ">
+              <div class="review p-sm-3   py-3 px-0 col-xl-4 col-sm-6 col-12    ">
                 <div class="card">
                   <div class="card-body">
                     <div>
@@ -378,7 +379,7 @@
                   </div>
                 </div>
               </div>
-              <div class="p-3 py-3 px-0 col-xl-4 col-sm-6 col-12 ">
+              <div class="review p-sm-3   py-3 px-0 col-xl-4 col-sm-6 col-12   ">
                 <div class="card">
                   <div class="card-body">
                     <div>
@@ -682,6 +683,8 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/a0b52dfeaf.js" crossorigin="anonymous"></script>
+
+  <script src="../scripts/main.js"></script>
 </body>
 
 </html>
