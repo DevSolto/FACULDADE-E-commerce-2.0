@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Shop.co</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="/front end/style.css">
+</head>
+
+<body class="d-flex flex-column">
+  <header class="shadow-sm position-fixed top-0 bg-white w-100 z-3">
+    <nav class="container navbar navbar-expand-lg bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="./assets/logo.png" alt="Logo" />
+        </a>
+        <button class="border-0 navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown me-2">
+              <a class="text-black text-decoration-none dropdown-btn menu-item" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Feminino
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Blazer</a></li>
+                <li><a class="dropdown-item" href="#">Blusa</a></li>
+                <li><a class="dropdown-item" href="#">Calça</a></li>
+                <li><a class="dropdown-item" href="#">Calça jeans</a></li>
+                <li><a class="dropdown-item" href="#">Camisa</a></li>
+                <li><a class="dropdown-item" href="#">Camiseta</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Casaco e jaqueta</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Jeans</a></li>
+                <li><a class="dropdown-item" href="#">Macacão</a></li>
+                <li><a class="dropdown-item" href="#">Moletom</a></li>
+                <li><a class="dropdown-item" href="#">Regata</a></li>
+                <li><a class="dropdown-item" href="#">Saia</a></li>
+                <li><a class="dropdown-item" href="#">Short e bermuda</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Suéter e cardigan</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Vestido</a></li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Ver todos</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown me-2">
+              <a class="text-black text-decoration-none menu-item" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Masculino
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Calça</a></li>
+                <li><a class="dropdown-item" href="#">Calça jeans</a></li>
+                <li><a class="dropdown-item" href="#">Camisa</a></li>
+                <li><a class="dropdown-item" href="#">Camiseta</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Casaco e jaqueta</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Jeans</a></li>
+                <li><a class="dropdown-item" href="#">Moletom</a></li>
+                <li><a class="dropdown-item" href="#">Polo</a></li>
+                <li><a class="dropdown-item" href="#">Regata</a></li>
+                <li><a class="dropdown-item" href="#">Short e bermuda</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Suéter e cardigan</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Ver todos</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item me-2">
+              <a class="text-black p-0 text-decoration-none nav-link menu-item">
+                Novidades
+              </a>
+            </li>
+          </ul>
+          <form
+            class="form-search bg-black text-white d-flex align-items-center justify-content-start rounded-pill mb-lg-0  mb-2 "
+            method="get" action="">
+            <button type="submit" class="btn">
+              <i class="fa fa-search text-white" aria-hidden="true"></i>
+            </button>
+            <input class="border-0 bg-transparent search text-white" type="text"
+              placeholder="Pesquisar por produto..." />
+          </form>
+          <div class="btns d-flex gap-3">
+            <img class="icone" src="/front end/assets/cart.png" alt="" />
+            <img class="icone" src="/front end/assets/user.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="mt-5">
+    <p>HOME > CART</p>
+
+    <section class="cart" class="h-100 h-custom" style="background-color: #fff;">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12">
+            <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+              <div class="card-body p-0">
+                <div class="row g-0">
+                  <div class="col-lg-8">
+                    <div class="p-5">
+                      <div class="d-flex justify-content-between align-items-center mb-5">
+                        <h1 class="p_2" class="fw-bold mb-0 text-black" >YOUR CART</h1>
+                        <h6 class="mb-0 text-muted">3 items</h6>
+                      </div>
+                      <hr class="my-4">
+    
+                      <div class="row mb-4 d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <img
+                            src="./assets/products/Frame 33.png"
+                            class="img-fluid rounded-3" alt="Cotton T-shirt">
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <h6 class="fw-bold text-black">Gradient T-shirt</h6>
+                          <h6 class="text-muted">Size: Large</h6>
+                          <h6 class="text-muted">Color: White</h6>
+                          <h6 class="fw-bold text-black">R$145,00</h6>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                          <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                            <i class="fas fa-minus"></i>
+                          </button>
+    
+                          <input id="form1" min="0" name="quantity" value="1" type="number"
+                            class="form-control form-control-sm" />
+    
+                          <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                            <i class="fas fa-plus"></i>
+                          </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <h6 class="mb-0">R$145,00</h6>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                          <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                        </div>
+                      </div>
+    
+                      <hr class="my-4">
+    
+                      <div class="row mb-4 d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <img
+                            src="./assets/products/image 8.png"
+                            class="img-fluid rounded-3" alt="Cotton T-shirt">
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <h6 class="fw-bold text-black">Checkered Shirt</h6>
+                          <h6 class="text-muted">Size: Medium</h6>
+                          <h6 class="text-muted">Color: Red</h6>
+                          <h6 class="fw-bold text-black">R$180,00</h6>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                          <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                            <i class="fas fa-minus"></i>
+                          </button>
+    
+                          <input id="form1" min="0" name="quantity" value="1" type="number"
+                            class="form-control form-control-sm" />
+    
+                          <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                            <i class="fas fa-plus"></i>
+                          </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <h6 class="mb-0">R$180,00</h6>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                          <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                        </div>
+                      </div>
+    
+                      <hr class="my-4">
+    
+                      <div class="row mb-4 d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <img
+                            src="./assets/products/image 9.png"
+                            class="img-fluid rounded-3" alt="Cotton T-shirt">
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <h6 class="fw-bold text-black">Skinny Fit Jeans</h6>
+                          <h6 class="text-muted">Size: Large</h6>
+                          <h6 class="text-muted">Color: Blue</h6>
+                          <h6 class="fw-bold text-black">R$240,00</h6>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                          <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                            <i class="fas fa-minus"></i>
+                          </button>
+    
+                          <input id="form1" min="0" name="quantity" value="1" type="number"
+                            class="form-control form-control-sm" />
+    
+                          <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                            <i class="fas fa-plus"></i>
+                          </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <h6 class="mb-0">R$240,00</h6>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                          <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                        </div>
+                      </div>
+    
+                      <hr class="my-4">
+    
+                      <div class="pt-5">
+                        <h6 class="mb-0"><a href="#!" class="text-body"><i
+                              class="fas fa-long-arrow-alt-left me-2"></i>Voltar á Página Anterior</a></h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 bg-grey">
+                    <div class="p-5">
+                      <h3 class="fw-bold mb-5 mt-2 pt-1">Sumário</h3>
+                      <hr class="my-4">
+    
+                      <div class="d-flex justify-content-between mb-4">
+                        <h5 class="text-uppercase">Itens: 3</h5>
+                        <h5>R$565,00</h5>
+                      </div>
+    
+                      <h5 class="text-uppercase mb-3">Frete</h5>
+    
+                      <div class="mb-4 pb-2">
+                        <select data-mdb-select-init>
+                          <option value="1">Padrão - R$30,00</option>
+                          <option value="2">Expresso - R$50,00</option>
+                          <option value="3">Mega Expresso - R$70,00</option>
+                          <option value="4">Rapidão Cometa - R$100,00</option>
+                        </select>
+                      </div>
+    
+                      <h5 class="text-uppercase mb-3">Cupom de Desconto</h5>
+    
+                      <div class="mb-5">
+                        <div data-mdb-input-init class="form-outline">
+                          <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
+                          <label class="form-label" for="form3Examplea2">coloque seu cupom</label>
+                        </div>
+                      </div>
+    
+                      <hr class="my-4">
+    
+                      <div class="d-flex justify-content-between mb-5">
+                        <h5 class="text-uppercase">Preço Final</h5>
+                        <h5>R$565,00</h5>
+                      </div>
+    
+                      <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-dark btn-block btn-lg"
+                        data-mdb-ripple-color="dark">Finalizar Compra</button>
+    
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row bg-black align-items-center p-4  rounded-5 newslatter shadow">
+        <h2 class="title text-white  text-uppercase col-md-8 col-12  pe-5">Fique por dentro das nossas novas ofertas
+        </h2>
+        <form class="col-md-4 col-12 ">
+          <div class="mb-3 d-flex align-items-center gap-2 bg-white  py-2 px-3  rounded-5 ">
+            <i class="fa-regular fa-envelope text-secondary "></i>
+            <input type="email" class="border-0 w-100 " id="email" aria-describedby="emailHelp"
+              placeholder="Digite seu email">
+          </div>
+          <button
+            class="d-flex align-items-center justify-content-center  gap-2 bg-white  py-2 px-3  rounded-5 w-100">Enviar</button>
+        </form>
+      </div>
+      <div class="row ">
+        <div class="col-lg-4 mb-4 ">
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="./assets/logo.png" alt="Logo" />
+          </a>
+          <p>
+            Nós Temos Roupas que Preenchem o Seu Estilo e lhe passam confiança. Para Todes.
+          </p>
+          <div>
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+          </div>
+        </div>
+        <div class="d-flex flex-column col-lg-2 col-6 mb-4 ">
+          <p class="text-uppercase mb-0">Shop.co</p>
+          <a href="" class="text-secondary  text-decoration-none">Sobre Nós</a>
+          <a href="" class="text-secondary  text-decoration-none">Trabalhos</a>
+          <a href="" class="text-secondary  text-decoration-none">Tipos de Produtos</a>
+          <a href="" class="text-secondary  text-decoration-none">Carreiras</a>
+        </div>
+        <div class="d-flex flex-column col-lg-2 col-6 mb-4 ">
+          <p class="text-uppercase mb-0">Ajuda</p>
+          <a href="" class="text-secondary  text-decoration-none">Apoio ao Cliente</a>
+          <a href="" class="text-secondary  text-decoration-none">Informações Sobre Frete</a>
+          <a href="" class="text-secondary  text-decoration-none">Termos & Condições</a>
+          <a href="" class="text-secondary  text-decoration-none">política de privacidade</a>
+        </div>
+        <div class="d-flex flex-column col-lg-2 col-6 mb-4 ">
+          <p class="text-uppercase mb-0">FAQ</p>
+          <a href="" class="text-secondary  text-decoration-none">Conta</a>
+          <a href="" class="text-secondary  text-decoration-none">Entregas</a>
+          <a href="" class="text-secondary  text-decoration-none">Pedidos</a>
+          <a href="" class="text-secondary  text-decoration-none">Pagamentos</a>
+        </div>
+        <div class="d-flex flex-column col-lg-2 col-6 mb-4 ">
+          <p class="text-uppercase mb-0">Recursos</p>
+          <a href="" class="text-secondary  text-decoration-none">eBooks Grátis</a>
+          <a href="" class="text-secondary  text-decoration-none">Tutorial</a>
+          <a href="" class="text-secondary  text-decoration-none">Blog</a>
+          <a href="" class="text-secondary  text-decoration-none">Playlist YouTube</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5 col-12 d-flex justify-content-md-start justify-content-center">
+          <p >© 2000-2021, Todos os Diretos Reservados</p>
+        </div>
+        <div class="col-md-7 col-12 d-flex gap-0 justify-content-md-end justify-content-center  ">
+          <img src="./assets/formasDePagamento/apple Pay.png" alt="">
+          <img src="./assets/formasDePagamento/Visa.png" alt="">
+          <img src="./assets/formasDePagamento/PayPal.png" alt="">
+          <img src="./assets/formasDePagamento/Master.png" alt="">
+          <img src="./assets/formasDePagamento/Google Pay.png" alt="">
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a0b52dfeaf.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
