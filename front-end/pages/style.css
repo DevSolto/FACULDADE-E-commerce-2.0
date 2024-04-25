@@ -1,0 +1,293 @@
+.logo {
+  width: 130px;
+}
+
+.dropdown-item:active {
+  background-color: #fff;
+  color: #000;
+}
+
+.dropdown-btn:active {
+  background-color: #fff;
+  color: #000;
+}
+
+.search {
+  outline: none;
+  width: 400px;
+}
+
+.btns img {
+  width: 25px;
+}
+
+#star-1 {
+  top: 100px;
+  right: 20px;
+  animation: star infinite 2.6s linear;
+}
+
+#star-2 {
+  top: 190px;
+  left: 0px;
+  width: 60px;
+  animation: star infinite 3s linear;
+}
+
+@keyframes star {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+.title {
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 64px;
+  letter-spacing: -4px;
+}
+
+h2 {
+  font-size: 45px;
+  letter-spacing: -3px;
+}
+
+.menu-item {
+  border-bottom: 2px solid #fff;
+  transition: all 0.3s;
+}
+
+.menu-item:hover {
+  border-bottom: 2px solid #000;
+}
+
+.banner {
+  background-color: #f2f0f1;
+  padding-top: 100px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Barra lateral */
+
+/* Este trecho define o estilo básico do corpo da página, como a fonte e a margem */
+.sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: #fff;
+  
+  overflow-y: auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estiliza o título da barra lateral */
+.sidebar h2 {
+  margin-top: 0;
+  font-size: 20px; /* Defina o tamanho da fonte desejado */
+}
+
+/* Remove a estilização padrão de listas */
+.sidebar ul,
+.sidebar li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estiliza os links dentro da barra lateral */
+.sidebar ul li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding: 10px 0;
+}
+
+/* Estiliza os links quando o mouse passa por cima deles */
+.sidebar ul li a:hover {
+  background-color: #f4f4f4;
+}
+
+/* bolinhas */
+
+
+/* Estiliza o controle deslizante de preço */
+.price-range {
+  margin-bottom: 20px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: #f4f4f4;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+/* Estiliza o polegar do controle deslizante em navegadores da Webkit */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: black;
+  cursor: pointer;
+  z-index: 2;
+  position: relative;
+}
+
+/* Estiliza o polegar do controle deslizante em navegadores Firefox */
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: black;
+  cursor: pointer;
+}
+
+/* Estiliza o valor do preço */
+.price-range p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Estiliza os tamanhos disponíveis */
+.sizes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Estiliza os botões de tamanho */
+.sizes input[type="button"] {
+  background-color: #f4f4f4;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Altera a cor de fundo e a cor do texto ao passar o mouse sobre os botões de tamanho */
+.sizes input[type="button"]:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Estiliza o botão "Aplicar Filtros" */
+.apply-btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+}
+
+/* Estiliza os estilos disponíveis */
+.styles li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding: 10px 0;
+}
+
+/* Estiliza os estilos quando o mouse passa por cima deles */
+.styles li a:hover {
+  background-color: #f4f4f4;
+}
+
+/* Aumenta o tamanho das opções clicáveis e define a cor para preto */
+.form-check-input {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+/* Ajusta o layout das opções clicáveis em uma linha */
+.row {
+  display: flex;
+}
+
+/* Ajusta o espaçamento entre as opções clicáveis */
+.col {
+  margin-right: 10px;
+}
+
+/* Define a cor para todas as opções clicáveis */
+.form-check-label::before {
+  background-color: black !important;
+}
+
+#exampleRadios1 {
+  background-color: #FF5733; 
+}
+
+#exampleRadios2 {
+  background-color: #FFC300;
+}
+
+#exampleRadios3 {
+  background-color: #C70039; 
+}
+
+#exampleRadios4 {
+  background-color: #900C3F; 
+}
+
+#exampleRadios5 {
+  background-color: #581845; 
+}
+#exampleRadios6 {
+  background-color: #008080; 
+}
+
+#exampleRadios7 {
+  background-color: #00FF7F; 
+}
+
+#exampleRadios8 {
+  background-color: #2E8B57;
+}
+
+#exampleRadios9 {
+  background-color: #FF4500; 
+}
+
+#exampleRadios10 {
+  background-color: #800000; 
+}
+
+#exampleRadios11 {
+  background-color: #663399; 
+}
+
+#exampleRadios12 {
+  background-color: #FF1493; 
+}

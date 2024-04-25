@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Shop.co</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="/front end/style.css">
+
+  
+</head>
+
+<body>
+  <header class="shadow-sm position-fixed top-0 bg-white  w-100 z-3 ">
+    <div class="container d-flex justify-content-between align-items-center py-3">
+      <img class="logo" src="/front end/assets/logo.png" alt="Logo">
+      <nav class="nav d-flex align-items-center gap-3">
+        <li class="dropdown">
+          <a class="text-black text-decoration-none dropdown-btn menu-item" type="button" data-bs-toggle="dropdown"
+            arial-expanded="false">
+            Feminino
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Blazer</a></li>
+            <li><a class="dropdown-item" href="#">Blusa</a></li>
+            <li><a class="dropdown-item" href="#">Calça</a></li>
+            <li><a class="dropdown-item" href="#">Calça jeans</a></li>
+            <li><a class="dropdown-item" href="#">Camisa</a></li>
+            <li><a class="dropdown-item" href="#">Camiseta</a></li>
+            <li><a class="dropdown-item" href="#">Casaco e jaqueta</a></li>
+            <li><a class="dropdown-item" href="#">Jeans</a></li>
+            <li><a class="dropdown-item" href="#">Macacão</a></li>
+            <li><a class="dropdown-item" href="#">Moletom</a></li>
+            <li><a class="dropdown-item" href="#">Regata</a></li>
+            <li><a class="dropdown-item" href="#">Saia</a></li>
+            <li><a class="dropdown-item" href="#">Short e bermuda</a></li>
+            <li><a class="dropdown-item" href="#">Suéter e cardigan</a></li>
+            <li><a class="dropdown-item" href="#">Vestido</a></li>
+            <li><a class="dropdown-item fw-semibold " href="#">Ver todos</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="text-black text-decoration-none menu-item" type="button" data-bs-toggle="dropdown"
+            arial-expanded="false">
+            Masculino
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Calça</a></li>
+            <li><a class="dropdown-item" href="#">Calça jeans</a></li>
+            <li><a class="dropdown-item" href="#">Camisa</a></li>
+            <li><a class="dropdown-item" href="#">Camiseta</a></li>
+            <li><a class="dropdown-item" href="#">Casaco e jaqueta</a></li>
+            <li><a class="dropdown-item" href="#">Jeans</a></li>
+            <li><a class="dropdown-item" href="#">Moletom</a></li>
+            <li><a class="dropdown-item" href="#">Polo</a></li>
+            <li><a class="dropdown-item" href="#">Regata</a></li>
+            <li><a class="dropdown-item" href="#">Short e bermuda</a></li>
+            <li><a class="dropdown-item" href="#">Suéter e cardigan</a></li>
+            <li><a class="dropdown-item fw-semibold " href="#">Ver todos</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="text-black p-0 text-decoration-none nav-link menu-item ">
+            Novidades
+          </a>
+        </li>
+      </nav>
+      <form class="bg-opacity-10 bg-black d-flex align-items-center justify-content-between rounded-pill   "
+        method="get" action="">
+        <button type="submit" class="btn">
+          <p>
+            
+          </p>
+          <i class="fa fa-search text-secondary " aria-hidden="true"></i>
+        </button>
+        <input class="border-0 bg-transparent search" type="text" placeholder="Pesquisar por produto...">
+      </form>
+      <div class="btns d-flex gap-3">
+        <img class="" src="/front end/assets/cart.png" alt="">
+        <img src="/front end/assets/user.png" alt="">
+      </div>
+    </div>
+  </header>
+  <main class="d-flex flex-column align-items-center pt-5">
+    
+    <div class="main pt-5">
+      <!-- Conteúdo principal do site -->
+      <h1 class="pt-5">T-shirt Store</h1>
+      <p>Aqui você pode encontrar uma variedade de camisas.</p>
+  </div>
+  <script src="script.js"></script>
+    
+  
+  
+  <!-- Barra lateral -->
+    
+
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Enable body scrolling</button>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    
+    
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Try scrolling the rest of the page to see this option in action.</p>
+  </div>
+</div>
+ 
+    
+      
+      
+      <div class="row container"> 
+      <div class="sidebar col-lg-4">
+          <div class="filters">
+              <h2>Filtros</h2>
+              <ul>
+                  <li><a href="#">Camisas</a></li>
+                  <li><a href="#">Casacos</a></li>
+                  <li><a href="#">Calças</a></li>
+                  <li><a href="#">Shorts</a></li>
+                  <li><a href="#">Jeans</a></li>
+              </ul>
+              <h2>Preço</h2>
+              <div class="price-range">
+                  <input type="range" min="50" max="1500" value="50" class="slider" id="priceRange">
+                  <p>R$<span id="priceValue">50</span></p>
+              </div>
+
+
+              <h2>Cores</h2>
+              <!--Bolas de cores-->
+
+              
+
+
+              
+              <div class="row">
+                <div class="col-2">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label color-green" for="exampleRadios1"></label>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label color-red" for="exampleRadios2"></label>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                    <label class="form-check-label color-yellow" for="exampleRadios3"></label>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                    <label class="form-check-label color-orange" for="exampleRadios4"></label>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option5">
+                    <label class="form-check-label color-cyan" for="exampleRadios5"></label>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios6" value="option6">
+                    <label class="form-check-label color-darkblue" for="exampleRadios6"></label>
+                  </div>
+                </div>  
+                <div class="col-2">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios7" value="option7">
+                    <label class="form-check-label color-purple" for="exampleRadios7"></label>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios8" value="option8">
+                    <label class="form-check-label color-pink" for="exampleRadios8"></label>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios9" value="option9">
+                    <label class="form-check-label color-white" for="exampleRadios9"></label>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios10" value="option10">
+                    <label class="form-check-label color-black" for="exampleRadios10"></label>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios11" value="option11">
+                    <label class="form-check-label color-black" for="exampleRadios11"></label>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios12" value="option12">
+                    <label class="form-check-label color-black" for="exampleRadios12"></label>
+                  </div>
+                </div>
+              </div>
+              
+              
+              </div>
+              <h2>Tamanhos</h2>
+              <div class="sizes">
+                  <input type="button" value="PP">
+                  <input type="button" value="P">
+                  <input type="button" value="M">
+                  <input type="button" value="G">
+                  <input type="button" value="GG">
+                  <input type="button" value="XG">
+                  <input type="button" value="XXG">
+              </div>
+              <h2>Estilo</h2>
+              <ul class="styles">
+                  <li><a href="#">Casual</a></li>
+                  <li><a href="#">Formal</a></li>
+                  <li><a href="#">Festa</a></li>
+                  <li><a href="#">Academia</a></li>
+              </ul>
+              <button class="apply-btn">Aplicar Filtros</button>
+          </div>
+
+
+
+          <!-- Produtos -->
+
+      <div class="products  row col-lg-8 ">
+        <div class="p-3  col-3">
+          <div class="d-flex flex-column shadow-sm  rounded-2 p-3  ">
+            <img class="rounded-3 " src="/front end/assets/products/product1.png" alt="">
+            <p class="h4">
+              T-shirt with tape details
+            </p>
+            <div class="d-flex align-items-end gap-3 justify-content-between w-100 ">
+              <div class="d-flex align-items-center">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <p class="text-black m-0 ">
+                  4/<span class="text-secondary ">5</span>
+                </p>
+              </div>
+              <p class="m-0">
+                R$ <span class="h3">120,00</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-3  col-3">
+          <div class="d-flex flex-column shadow-sm  rounded-2 p-3  ">
+            <img class="rounded-3 " src="/front end/assets/products/product2.png" alt="">
+            <p class="h4">
+              SKINNY FIT JEANS
+            </p>
+            <div class="d-flex align-items-end gap-3 justify-content-between w-100 ">
+              <div class="d-flex align-items-center">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <p class="text-black m-0 ">
+                  4/<span class="text-secondary ">5</span>
+                </p>
+              </div>
+              <p class="m-0">
+                R$ <span class="h3">240,00</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-3  col-3">
+          <div class="d-flex flex-column shadow-sm  rounded-2 p-3  ">
+            <img class="rounded-3 " src="/front end/assets/products/product3.png" alt="">
+            <p class="h4">
+              CHECKERED SHIRT
+            </p>
+            <div class="d-flex align-items-end gap-3 justify-content-between w-100 ">
+              <div class="d-flex align-items-center">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <p class="text-black m-0 ">
+                  4/<span class="text-secondary ">5</span>
+                </p>
+              </div>
+              <p class="m-0">
+                R$ <span class="h3">180,00</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+    
+          <div class="p-3  col-3">
+            <div class="d-flex flex-column shadow-sm  rounded-2 p-3  ">
+              <img class="rounded-3 " src="/front end/assets/products/product5.png" alt="">
+              <p class="h4">
+                Black Striped T-shirt
+              </p>
+              <div class="d-flex align-items-end gap-3 justify-content-between w-100 ">
+                <div class="d-flex align-items-center">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <p class="text-black m-0 ">
+                    4/<span class="text-secondary ">5</span>
+                  </p>
+                </div>
+                <p class="m-0">
+                  R$ <span class="h3">120,00</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-3  col-3">
+            <div class="d-flex flex-column shadow-sm  rounded-2 p-3  ">
+              <img class="rounded-3 " src="/front end/assets/products/product4.png" alt="">
+              <p class="h4">
+                SLEEVE STRIPED T-SHIRT
+              </p>
+              <div class="d-flex align-items-end gap-3 justify-content-between w-100 ">
+                <div class="d-flex align-items-center">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <p class="text-black m-0 ">
+                    4/<span class="text-secondary ">5</span>
+                  </p>
+                </div>
+                <p class="m-0">
+                  R$ <span class="h3">130,00</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="p-3  col-3">
+            <div class="d-flex flex-column shadow-sm  rounded-2 p-3  ">
+              <img class="rounded-3 " src="/front end/assets/products/product6.png" alt="">
+              <p class="h4">
+                Gradient Graphic T-shirt
+              </p>
+              <div class="d-flex align-items-end gap-3 justify-content-between w-100 ">
+                <div class="d-flex align-items-center">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <p class="text-black m-0 ">
+                    4/<span class="text-secondary ">5</span>
+                  </p>
+                </div>
+                <p class="m-0">
+                  R$ <span class="h3">145,00</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="p-3  col-3">
+            <div class="d-flex flex-column shadow-sm  rounded-2 p-3  ">
+              <img class="rounded-3 " src="/front end/assets/products/product7.png" alt="">
+              <p class="h4">
+                Polo with Tipping Details
+              </p>
+              <div class="d-flex align-items-end gap-3 justify-content-between w-100 ">
+                <div class="d-flex align-items-center">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <p class="text-black m-0 ">
+                    4/<span class="text-secondary ">5</span>
+                  </p>
+                </div>
+                <p class="m-0">
+                  R$ <span class="h3">180,00</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="p-3  col-3">
+            <div class="d-flex flex-column shadow-sm  rounded-2 p-3  ">
+              <img class="rounded-3 " src="/front end/assets/products/product8.png" alt="">
+              <p class="h4">
+                VERTICAL STRIPED SHIRT              </p>
+              <div class="d-flex align-items-end gap-3 justify-content-between w-100 ">
+                <div class="d-flex align-items-center">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <p class="text-black m-0 ">
+                    4/<span class="text-secondary ">5</span>
+                  </p>
+                </div>
+                <p class="m-0">
+                  R$ <span class="h3">212,00</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="p-3  col-3">
+            <div class="d-flex flex-column shadow-sm  rounded-2 p-3  ">
+              <img class="rounded-3 " src="/front end/assets/products/product9.png" alt="">
+              <p class="h4">
+                COURAGE GRAPHIC T-SHIRT              </p>
+              <div class="d-flex align-items-end gap-3 justify-content-between w-100 ">
+                <div class="d-flex align-items-center">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <p class="text-black m-0 ">
+                    4/<span class="text-secondary ">5</span>
+                  </p>
+                </div>
+                <p class="m-0">
+                  R$ <span class="h3">145,00</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="p-3  col-3">
+            <div class="d-flex flex-column shadow-sm  rounded-2 p-3  ">
+              <img class="rounded-3 " src="/front end/assets/products/product10.png" alt="">
+              <p class="h4">
+                LOOSE FIT BERMUDA SHORTS              </p>
+              <div class="d-flex align-items-end gap-3 justify-content-between w-100 ">
+                <div class="d-flex align-items-center">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <p class="text-black m-0 ">
+                    4/<span class="text-secondary ">5</span>
+                  </p>
+                </div>
+                <p class="m-0">
+                  R$ <span class="h3">80,00</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="p-3  col-3">
+            <div class="d-flex flex-column shadow-sm  rounded-2 p-3  ">
+              <img class="rounded-3 " src="/front end/assets/products/product11.png" alt="">
+              <p class="h4">
+                One Life Graphic T-shirt              </p>
+              <div class="d-flex align-items-end gap-3 justify-content-between w-100 ">
+                <div class="d-flex align-items-center">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <p class="text-black m-0 ">
+                    4/<span class="text-secondary ">5</span>
+                  </p>
+                </div>
+                <p class="m-0">
+                  R$ <span class="h3">260,00</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="p-3  col-3">
+            <div class="d-flex flex-column shadow-sm  rounded-2 p-3  ">
+              <img class="rounded-3 " src="/front end/assets/products/product12.png" alt="">
+              <p class="h4">
+                Polo with Contrast Trims              </p>
+              <div class="d-flex align-items-end gap-3 justify-content-between w-100 ">
+                <div class="d-flex align-items-center">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <p class="text-black m-0 ">
+                    4/<span class="text-secondary ">5</span>
+                  </p>
+                </div>
+                <p class="m-0">
+                  R$ <span class="h3">212,00</span>
+                </p>
+              </div>
+            </div>
+          </div>
+    
+    </div>  
+      </div>
+        
+      
+      
+  </div>
+    <div class="d-flex align-items-center gap-2">
+      <h5 class="card-title">Sarah M.</h5>
+      <i class="fa-solid fa-circle-check text-success "></i>
+    </div>
+    <p class="card-text">
+      "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to
+      elegant dresses, every piece I've bought has exceeded my expectations.”
+    </p>
+  </div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<div class="container">
+<div class="row bg-black align-items-center p-4  rounded-5 newslatter shadow">
+<h2 class="title text-white  text-uppercase col-md-8 col-12  pe-5">Fique por dentro das nossas novas ofertas
+</h2>
+<form class="col-md-4 col-12 ">
+<div class="mb-3 d-flex align-items-center gap-2 bg-white  py-2 px-3  rounded-5 ">
+  <i class="fa-regular fa-envelope text-secondary "></i>
+  <input type="email" class="border-0 w-100 " id="email" aria-describedby="emailHelp"
+    placeholder="Digite seu email">
+</div>
+<button
+  class="d-flex align-items-center justify-content-center  gap-2 bg-white  py-2 px-3  rounded-5 w-100">Submit</button>
+</form>
+</div>
+<div class="row ">
+<div class="col-lg-4 mb-4 ">
+<a class="navbar-brand" href="#">
+  <img class="logo" src="./assets/logo.png" alt="Logo" />
+</a>
+<p>
+  We have clothes that suits your style and which you’re proud to wear. From women to men.
+</p>
+<div>
+  <i class="fa-brands fa-square-facebook"></i>
+  <i class="fa-brands fa-square-instagram"></i>
+  <i class="fa-brands fa-square-twitter"></i>
+</div>
+</div>
+<div class="d-flex flex-column col-lg-2 col-6 mb-4 ">
+<p class="text-uppercase mb-0">Company</p>
+<a href="" class="text-secondary  text-decoration-none">About</a>
+<a href="" class="text-secondary  text-decoration-none">Works</a>
+<a href="" class="text-secondary  text-decoration-none">Features</a>
+<a href="" class="text-secondary  text-decoration-none">Career</a>
+</div>
+<div class="d-flex flex-column col-lg-2 col-6 mb-4 ">
+<p class="text-uppercase mb-0">Help</p>
+<a href="" class="text-secondary  text-decoration-none">Customer Support</a>
+<a href="" class="text-secondary  text-decoration-none">Delivery Details</a>
+<a href="" class="text-secondary  text-decoration-none">Terms & Conditions</a>
+<a href="" class="text-secondary  text-decoration-none">Privacy Policy</a>
+</div>
+<div class="d-flex flex-column col-lg-2 col-6 mb-4 ">
+<p class="text-uppercase mb-0">FAQ</p>
+<a href="" class="text-secondary  text-decoration-none">Account</a>
+<a href="" class="text-secondary  text-decoration-none">Manage Deliveries</a>
+<a href="" class="text-secondary  text-decoration-none">Orders</a>
+<a href="" class="text-secondary  text-decoration-none">Payments</a>
+</div>
+<div class="d-flex flex-column col-lg-2 col-6 mb-4 ">
+<p class="text-uppercase mb-0">Resources</p>
+<a href="" class="text-secondary  text-decoration-none">Free eBooks</a>
+<a href="" class="text-secondary  text-decoration-none">Development Tutorial</a>
+<a href="" class="text-secondary  text-decoration-none">How to - Blog</a>
+<a href="" class="text-secondary  text-decoration-none">Youtube Playlist</a>
+</div>
+</div>
+<div class="row">
+<div class="col-md-5 col-12 d-flex justify-content-md-start justify-content-center">
+<p >© 2000-2021, All rights reserved</p>
+</div>
+<div class="col-md-7 col-12 d-flex gap-0 justify-content-md-end justify-content-center  ">
+<img src="./assets/formas de pagamento/apple Pay.png" alt="">
+<img src="./assets/formas de pagamento/Visa.png" alt="">
+<img src="./assets/formas de pagamento/PayPal.png" alt="">
+<img src="./assets/formas de pagamento/Master.png" alt="">
+<img src="./assets/formas de pagamento/Google Pay.png" alt="">
+</div>
+</div>
+</div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/a0b52dfeaf.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
